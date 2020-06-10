@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <title>CSS Variables</title>
-</head>
-<body>
-  <script src="./index.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>CSS Variables</title>
+  </head>
+  <body>
+    <div id="container">
+      <div class="square">
+        <section class="input-section">
+          <div class="input-group">
+            <label for="background-color">Background Color:</label>
+            <input id="background-color" type="color" value="#ffba49" />
+          </div>
+
+          <div class="input-group">
+            <label for="text-color">Text Color:</label>
+            <input id="text-color" type="color" value="#000000" />
+          </div>
+
+          <div class="input-group">
+            <label for="base-font">Font Size:</label>
+            <input
+              type="range"
+              id="base-font"
+              value="14"
+              min="12"
+              max="16"
+              step="1"
+              name="font-size"
+            />
+          </div>
+        </section>
+        
+        <section class="text-section">
+          <h1>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
+            mollitia.
+          </h1>
+          <h2>
+            Ducimus iste recusandae quo suscipit unde. Dolorem modi impedit
+            corporis?
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+            necessitatibus sunt cum enim, officia nam minima accusantium
+            explicabo sit ut quos, quisquam veritatis, dolores laboriosam
+            commodi. Doloremque aperiam asperiores facilis.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+            necessitatibus sunt cum enim, officia nam minima accusantium
+            explicabo sit ut quos, quisquam veritatis, dolores laboriosam
+            commodi. Doloremque aperiam asperiores facilis.
+          </p>
+        </section>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
 </html>
