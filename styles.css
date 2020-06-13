@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  border: none;
+  margin-bottom: 1rem;
+}
+
+input[type="range"] {
+  width: 50%;
+  cursor: pointer;
+}
+
+.sub-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+  max-width: 900px;
+  height: 100vh;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+}
